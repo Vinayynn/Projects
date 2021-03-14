@@ -1,0 +1,96 @@
+html, body{
+    width: 100%;
+    margin: 0;
+    overflow-x: 0;
+    padding: 0;
+}
+
+/* top marquee section begins */
+
+.instructionSection marquee{
+    margin-top: -5px;
+    color: tomato;
+    height: 70px;
+    font-size: 25px;
+    background-color: thistle;
+}
+
+/* top marquee section ends */
+
+
+
+.questionPalletSection{
+    background-color: cadetblue;
+    height: 500px;
+}
+
+.questionPalletSection div{
+    background-color: wheat;
+    width: 70%;
+    display: block;
+    float: left;
+    margin: auto auto;
+    height: 100%;
+}
+
+.questionPalletSection div div{
+    background-color: aqua;
+    width: 100%;
+    height: 50%;
+}
+
+/* question section starts */
+
+.questionDisplay{
+    width: 100% !important;
+    float: left !important;
+    margin-left: 10px !important;
+    font-size: 20px;
+    height: fit-content !important;
+}
+
+.answerDisplay div{
+    display: block;
+    /* width: auto !important; */
+    float: left !important;
+    margin-left: 10px !important;
+    font-size: 20px;
+}
+
+.checkboxes{
+    background-color: hsl(319, 53%, 74%) !important;
+    width: 5% !important;
+    float: left !important;
+    margin-left: 10px !important;
+    font-size: 20px;
+}
+
+.option{
+    background-color: #ff7f50 !important;
+    width: 90% !important;
+    float: left !important;
+    margin-left: 10px !important;
+    font-size: 20px;
+    border: crimson solid 1px;
+}
+
+
+
+
+
+
+
+/* question section ends */
+
+
+
+/* pallet division starts */
+
+.palletDiv{
+    width: 25% !important;
+    float: right !important;
+    margin-right: 5px;
+}
+
+
+/* pallet division ends */

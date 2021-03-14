@@ -1,0 +1,47 @@
+body, html{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.imageSection{
+    margin-top: 10px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_960_720.jpg");
+    /* background-image: url("https://cdn.pixabay.com/photo/2020/12/14/17/40/studying-5831644_960_720.jpg"); */
+    height: 600px;
+    border: darkgreen 1px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topNav{
+    height: 80px;
+    position: fixed;
+}
+
+.topNavRight{
+    float: right !important;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-left: 1000px;
+}
+
+.topNavRight a{
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: indianred;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: all 500ms;
+    color: oldlace;
+    
+}
+
+.topNavRight a:hover{
+    background-color: lightcoral;
+    padding: 10px 12px;
+    color: whitesmoke;
+}
+
