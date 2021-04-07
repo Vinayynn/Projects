@@ -1,7 +1,7 @@
 class Hangman:
 
     def __init__(self):
-        self.wordToBeGuessed = "soujanya"
+        self.wordToBeGuessed = "vinay"
         self.wordToBeGuessedList = []
         self.userGuessList = ["_"] * ( len(self.wordToBeGuessed))
         self.wrongGuesses = list()
